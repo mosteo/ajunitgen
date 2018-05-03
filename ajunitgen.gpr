@@ -1,3 +1,5 @@
+with "xml_ez_out";
+
 project Ajunitgen is
 
    for Source_Dirs use ("src");
