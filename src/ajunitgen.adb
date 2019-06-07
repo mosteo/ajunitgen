@@ -136,7 +136,9 @@ package body AJUnitGen is
                     ('&' | ''' | '"' | '<' | '>' => True,
                      others                      => False);
 
-   Replacings : constant array (Character) of access String :=
+   type String_Access is access constant String;
+
+   Replacings : constant array (Character) of String_Access :=
                   ('&'    => new String'("&amp;"),
                    '''    => new String'("&apos;"),
                    '"'    => new String'("&quot;"),
