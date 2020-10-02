@@ -1,0 +1,13 @@
+name = "ajunitgen"
+version = "1.0.1"
+description = "Generator of JUnit-compatible XML reports"
+
+authors = [ "Alejandro R. Mosteo", ]
+licenses = [ "LGPL 3.0", ]
+maintainers = [ "alejandro@mosteo.com", ]
+maintainers-logins = [ "mosteo", ]
+
+tags = ["junit", "xml"]
+
+[[depends-on]]
+xml_ez_out = "^1.6"
