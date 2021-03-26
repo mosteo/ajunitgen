@@ -1,5 +1,5 @@
 name = "ajunitgen"
-version = "1.0.1-dev"
+version = "1.0.2-dev"
 description = "Generator of JUnit-compatible XML reports"
 
 authors = [ "Alejandro R. Mosteo", ]
