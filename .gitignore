@@ -4,3 +4,8 @@ obj
 
 # Ada Library Information
 *.ali
+
+# Alire
+/alire/
+/config/
+alire.lock
